@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A thoughtful collection of beautiful places to stay. Find your own kind of elsewhere with Casa Noma."
+    />
+    <meta name="theme-color" content="#f7f5ef" />
+    <title>Casa Noma — Find your own kind of elsewhere</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#" aria-label="Casa Noma home">
+        casa <span>noma</span><span class="wordmark-period">.</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+        <span class="sr-only">Open navigation menu</span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+      </button>
+      <nav class="navigation" id="primary-navigation" aria-label="Main navigation">
+        <a href="#stays">Find a stay</a>
+        <a href="#story">Our story</a>
+        <a href="#journal">The journal</a>
+        <a class="nav-cta" href="#newsletter">Get inspired <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&amp;fit=crop&amp;w=2200&amp;q=88"
+          alt="Sunlit, thoughtfully designed living room opening onto a garden"
+          fetchpriority="high"
+        />
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow hero-eyebrow"><span class="eyebrow-dot"></span> A different kind of getaway</p>
+          <h1 id="hero-title">Find your own<br />kind of <em>elsewhere.</em></h1>
+          <p class="hero-copy">Considered stays for the days you want to remember.</p>
+          <a class="button button-light" href="#stays">Explore our stays <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-caption"><span>01</span> A slower stay in the Alentejo, Portugal</div>
+        <a class="hero-scroll" href="#stays" aria-label="Scroll to discover stays">
+          <span>Scroll to discover</span><span class="scroll-line"></span>
+        </a>
+        <div class="hero-stamp" aria-label="Stay a little differently">
+          <span>STAY A LITTLE</span>
+          <span class="stamp-star">✳</span>
+          <span>DIFFERENTLY</span>
+        </div>
+      </section>
+
+      <section class="intro section-wrap" id="story" aria-labelledby="intro-title">
+        <div class="intro-kicker">
+          <span class="section-number">01 /</span>
+          <span class="eyebrow">Not just somewhere to sleep</span>
+        </div>
+        <div class="intro-main">
+          <h2 class="display-heading" id="intro-title">Go for the place.<br />Come back <em>yourself.</em></h2>
+          <div class="intro-aside">
+            <p>We find the one-of-a-kind homes that make getting away feel like getting somewhere. Places with a point of view, a sense of place, and room to just be.</p>
+            <a class="text-link" href="#journal">A little more about us <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="intro-note"><span class="note-spark">✳</span> Less scrolling. More feeling somewhere.</div>
+      </section>
+
+      <section class="stays section-wrap" id="stays" aria-labelledby="stays-title">
+        <div class="section-heading">
+          <div>
+            <div class="intro-kicker">
+              <span class="section-number">02 /</span>
+              <span class="eyebrow">A few places to begin</span>
+            </div>
+            <h2 class="display-heading" id="stays-title">Somewhere <em>good.</em></h2>
+          </div>
+          <a class="text-link all-stays-link" href="#newsletter">See all stays <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <div class="stay-grid">
+          <article class="stay-card stay-card-tall">
+            <a class="stay-image-link" href="#newsletter" aria-label="Discover Casa Mãe in Comporta">
+              <img
+                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+                alt="Modern white villa framed by a lush garden"
+                loading="lazy"
+              />
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="stay-details">
+              <div><p class="stay-location">COMPORTA, PORTUGAL</p><h3>Casa Mãe</h3></div>
+              <p class="stay-price">From €240 <span>/ night</span></p>
+            </div>
+            <div class="stay-tags"><span>By the sea</span><span>Design-led</span><span class="stay-rating">✳ &nbsp;4.98</span></div>
+          </article>
+
+          <article class="stay-card stay-card-offset">
+            <a class="stay-image-link" href="#newsletter" aria-label="Discover Casa Oliva in Puglia">
+              <img
+                src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+                alt="Warm minimalist interior with natural textures and olive-green accents"
+                loading="lazy"
+              />
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="stay-details">
+              <div><p class="stay-location">PUGLIA, ITALY</p><h3>Casa Oliva</h3></div>
+              <p class="stay-price">From €185 <span>/ night</span></p>
+            </div>
+            <div class="stay-tags"><span>Country escape</span><span>Slow living</span><span class="stay-rating">✳ &nbsp;4.96</span></div>
+          </article>
+
+          <article class="stay-card stay-card-third">
+            <a class="stay-image-link" href="#newsletter" aria-label="Discover The A-frame in the Dolomites">
+              <img
+                src="https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+                alt="Secluded cabin tucked among quiet woodland"
+                loading="lazy"
+              />
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </a>
+            <div class="stay-details">
+              <div><p class="stay-location">DOLOMITES, ITALY</p><h3>The A-frame</h3></div>
+              <p class="stay-price">From €210 <span>/ night</span></p>
+            </div>
+            <div class="stay-tags"><span>Mountain hideout</span><span>Woodland</span><span class="stay-rating">✳ &nbsp;4.99</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="manifesto" aria-labelledby="manifesto-title">
+        <div class="manifesto-image">
+          <img
+            src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&amp;fit=crop&amp;w=1800&amp;q=85"
+            alt="Still mountain lake surrounded by green alpine peaks"
+            loading="lazy"
+          />
+          <span class="image-label">THE GOOD KIND OF GETTING LOST</span>
+        </div>
+        <div class="manifesto-content">
+          <div class="intro-kicker">
+            <span class="section-number">03 /</span>
+            <span class="eyebrow">A note on getting away</span>
+          </div>
+          <h2 class="display-heading" id="manifesto-title">Make room for<br />a little <em>nothing.</em></h2>
+          <p>For long lunches, open windows, and mornings with nowhere to be. We believe the best trips leave a little space around the edges.</p>
+          <a class="button button-dark" href="#journal">Read our journal <span aria-hidden="true">↗</span></a>
+          <span class="manifesto-scribble" aria-hidden="true">take<br />the long<br />way home</span>
+        </div>
+      </section>
+
+      <section class="journal section-wrap" id="journal" aria-labelledby="journal-title">
+        <div class="journal-heading">
+          <div class="intro-kicker">
+            <span class="section-number">04 /</span>
+            <span class="eyebrow">Postcards from out there</span>
+          </div>
+          <h2 class="display-heading" id="journal-title">Notes for <em>later.</em></h2>
+        </div>
+        <div class="journal-grid">
+          <a class="journal-card" href="#newsletter">
+            <div class="journal-image">
+              <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Golden morning light over a misty countryside" loading="lazy" />
+              <span class="journal-image-arrow" aria-hidden="true">↗</span>
+            </div>
+            <span class="journal-meta">FIELD NOTES &nbsp;·&nbsp; 5 MIN READ</span>
+            <h3>The art of taking the long way round</h3>
+          </a>
+          <a class="journal-card" href="#newsletter">
+            <div class="journal-image">
+              <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Colorful buildings along the Italian coastline" loading="lazy" />
+              <span class="journal-image-arrow" aria-hidden="true">↗</span>
+            </div>
+            <span class="journal-meta">GOOD PLACES &nbsp;·&nbsp; 7 MIN READ</span>
+            <h3>A slower kind of summer on the Italian coast</h3>
+          </a>
+          <div class="journal-prompt">
+            <span class="prompt-spark" aria-hidden="true">✳</span>
+            <p>Little detours.<br />Lovely places.<br /><em>Good stories.</em></p>
+            <a class="text-link" href="#newsletter">A peek inside <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter" id="newsletter" aria-labelledby="newsletter-title">
+        <div class="newsletter-inner">
+          <span class="newsletter-stamp" aria-hidden="true">✳</span>
+          <p class="eyebrow">A little note from somewhere nice</p>
+          <h2 class="display-heading" id="newsletter-title">A softer kind<br />of <em>inbox.</em></h2>
+          <p class="newsletter-copy">Thoughtful places, little rituals, and the occasional reason to close your laptop. No noise, ever.</p>
+          <form class="newsletter-form" novalidate>
+            <label class="sr-only" for="email-address">Your email address</label>
+            <input id="email-address" name="email" type="email" placeholder="Your email address" autocomplete="email" required />
+            <button type="submit" aria-label="Subscribe to the newsletter">Count me in <span aria-hidden="true">↗</span></button>
+          </form>
+          <p class="form-message" aria-live="polite"></p>
+          <p class="newsletter-footnote">The nice bits only. Unsubscribe whenever.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark footer-wordmark" href="#" aria-label="Casa Noma home">casa <span>noma</span><span class="wordmark-period">.</span></a>
+      <p class="footer-tagline">Go somewhere. Feel something.</p>
+      <div class="footer-bottom">
+        <span>© <span id="current-year"></span> Casa Noma</span>
+        <span>Made for going a little further.</span>
+        <div class="footer-links"><a href="#story">Instagram</a><a href="#story">Contact</a><a href="#story">Privacy</a></div>
+      </div>
+    </footer>
+  </body>
+</html>
